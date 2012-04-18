@@ -24,7 +24,7 @@ gem 'sitemap_generator'
 gem 'sunspot_rails'
 gem 'sunspot_solr'
 gem 'sunspot_with_kaminari'
-gem 'sunspot_mongo', git: 'https://github.com/derekharmel/sunspot_mongo.git'
+gem 'sunspot_mongo', :git => 'https://github.com/derekharmel/sunspot_mongo.git'
 gem 'progress_bar'
 
 gem 'sass-rails', '~> 3.2.3'
@@ -53,13 +53,13 @@ group :development, :test do
   gem 'guard-spork'
   gem 'guard-rspec'
   gem 'guard-bundler'
-  gem 'guard-ctags-bundler', git: 'git://github.com/antono/guard-ctags-bundler.git'
+  gem 'guard-ctags-bundler', :git => 'git://github.com/antono/guard-ctags-bundler.git'
 
   gem 'rake'
   gem 'pry'
   gem 'pry-nav'
 
-  gem 'turnip', git: "git://github.com/jnicklas/turnip.git"
+  gem 'turnip', :git => "git://github.com/jnicklas/turnip.git"
   gem 'capybara'
   gem 'database_cleaner'
 
